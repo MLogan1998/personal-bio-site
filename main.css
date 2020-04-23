@@ -1,3 +1,24 @@
 body {
-  background-color: darkgrey;
+  background-color: #F4976C;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #FBE8A6;
+  display: flex;
+  padding: 20px;
+}
+nav h1 {
+  margin: 0px;
+  color: #303C6C;
+}
+#navLinks {
+  list-style-type: none;
+  display:flex;
+  margin: 6px 20px; 
+}
+
+#navLinks a{
+  margin: 0px 10px;
+  color: #303C6C;
 }
