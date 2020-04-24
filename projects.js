@@ -1,7 +1,7 @@
 const projects = [
   {
     title: 'Product Cards',
-    screenshot: '',
+    screenshot: 'https://i.postimg.cc/vmzTV7r6/product-cards-final.jpg',
     description: 'Our first project at NSS was to create product cards using HTML and CSS. The biggest challenge of this project was placing the sold out image over the card.',
     technologiesUsed: 'HTML, CSS, Version Control with GitHub ',
     available: true,
@@ -10,7 +10,7 @@ const projects = [
   },
   {
     title: 'CSS Theme Challenge',
-    screenshot: '',
+    screenshot: 'https://i.postimg.cc/LXkjbZFt/css-theme-challenge-final.jpg',
     description: 'This was an opttional challenge to recreate a template from TEMPLATED. At the time, by far the most advanced work I had done. I think it turned out pretty good!',
     technologiesUsed: 'HTML, CSS, Version Control with GitHub ',
     available: true,
@@ -19,7 +19,7 @@ const projects = [
   },
   {
     title: 'Pet Adoption',
-    screenshot: '',
+    screenshot: 'https://i.postimg.cc/CdpTLtQT/pet-adoption-final.jpg',
     description: 'Create pet cards using JavaScript. This was our first project using JavaScript to print to the dom. Added buttons to filter the cards by animal type using jQuery.',
     technologiesUsed: 'HTML, CSS, Vanilla JavaScript, jQuery, Version Control with GitHub ',
     available: true,
