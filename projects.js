@@ -44,7 +44,7 @@ const buildProjects = (obj) => {
       domString += `<div class="${obj[i].camel}" id="projectCard">`
       domString += `<h3 class="projectTitle">${obj[i].title}</h3>`
       domString += `<img src="${obj[i].screenshot} " alt="${obj[i].title} Screenshot"><br>`
-      domString += `<a href="${obj[i].githubUrl}" target="_new"><img border="0" alt="GitHub" src="https://i.postimg.cc/502qWx5Y/githubfinal.png" width="50" height="50"></a>`
+      domString += `<a href="${obj[i].githubUrl}" target="_new"><img border="0" alt="GitHub" src="https://i.postimg.cc/6pBvGvtv/githubnew.png" width="50" height="50"></a>`
       domString += '</div>'
     }
   }

@@ -1,27 +1,34 @@
 body {
-  background-color: #5D5C61;
+  background-color: #C4C2CC;
   margin: 0 auto;
 }
 
 nav {
-  background-color: #7395AE;
+  background-color: white;
   display: flex;
   padding: 20px;
 }
 nav h1 {
   margin: 0px;
-  color: white;
+  color: #5D5C61;
 }
 #navLinks {
   list-style-type: none;
   display:flex;
   margin: 6px 20px; 
+  padding: 0px;
 }
 
 #navLinks a{
   margin: 0px 10px;
-  color: white;
+  color: #557A95;
   font-weight: bold;
+  padding:25px 0px;
+  cursor: pointer;
+}
+
+a:hover {
+  opacity: .8;
 }
 
 #projectsPage {
@@ -34,10 +41,14 @@ nav h1 {
 }
 
 #projectCard {
-  border: 1px solid white;
+  border: 1px solid #7395AE;
   margin: 10px;
+  background-color: #B1A296; 
 }
 
 .projectTitle {
   color: white;
+  margin:0px;
+  padding: 19px;
+  background-color: #557A95;
 }
