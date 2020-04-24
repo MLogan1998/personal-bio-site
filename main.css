@@ -44,10 +44,7 @@ a:hover {
   border: 1px solid #7395AE;
   margin: 10px;
   background-color: #B1A296; 
-<<<<<<< HEAD
-=======
   max-width: 475px;
->>>>>>> ml-projectsToDom
 }
 
 .projectTitle {
@@ -55,8 +52,6 @@ a:hover {
   margin:0px;
   padding: 19px;
   background-color: #557A95;
-<<<<<<< HEAD
-=======
 }
 
 .screenshotImg {
@@ -64,10 +59,8 @@ a:hover {
   padding: 0px;
   border-bottom: 1px solid #7395AE;
 }
-
 #details {
   text-align: left;
   background-color: white;
   padding: 10px 25px 5px 5px;
->>>>>>> ml-projectsToDom
 }
