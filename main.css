@@ -1,16 +1,16 @@
 body {
-  background-color: #F4976C;
+  background-color: #5D5C61;
   margin: 0 auto;
 }
 
 nav {
-  background-color: #FBE8A6;
+  background-color: #7395AE;
   display: flex;
   padding: 20px;
 }
 nav h1 {
   margin: 0px;
-  color: #303C6C;
+  color: white;
 }
 #navLinks {
   list-style-type: none;
@@ -20,5 +20,6 @@ nav h1 {
 
 #navLinks a{
   margin: 0px 10px;
-  color: #303C6C;
+  color: white;
+  font-weight: bold;
 }
