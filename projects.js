@@ -43,9 +43,6 @@ const buildProjects = (obj) => {
     if(obj[i].available === true) {
       domString += `<div class="${obj[i].camel}" id="projectCard">`
       domString += `<h3 class="projectTitle">${obj[i].title}</h3>`
-<<<<<<< HEAD
-      domString += `<img src="${obj[i].screenshot} " alt="${obj[i].title} Screenshot"><br>`
-=======
       domString += `<img class="screenshotImg" src="${obj[i].screenshot}" alt="${obj[i].title} Screenshot"><br>`
       domString += '<div id="details">'
       domString += '<h3>Project Description</h3>'
@@ -53,7 +50,6 @@ const buildProjects = (obj) => {
       domString += '<h3>Made With:</h3>'
       domString += `<p class="techUsedP">${obj[i].technologiesUsed}</p>`
       domString += '</div>'
->>>>>>> ml-projectsToDom
       domString += `<a href="${obj[i].githubUrl}" target="_new"><img border="0" alt="GitHub" src="https://i.postimg.cc/6pBvGvtv/githubnew.png" width="50" height="50"></a>`
       domString += '</div>'
     }
