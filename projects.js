@@ -22,9 +22,9 @@ const projects = [
   {
     title: 'Pet Adoption',
     camel: 'petAdoption',
-    screenshot: 'https://i.postimg.cc/CdpTLtQT/pet-adoption-final.jpg',
-    description: 'Create pet cards using JavaScript. This was our first project using JavaScript to print to the dom. Added buttons to filter the cards by animal type using jQuery.',
-    technologiesUsed: 'HTML, CSS, Vanilla JavaScript, jQuery, Version Control with GitHub ',
+    screenshot: 'https://i.postimg.cc/Kz44b9Xn/pet-adoption-final2.jpg',
+    description: 'Create pet cards using JavaScript. This was our first project using JavaScript to print to the dom. Added buttons to filter the cards by animal type.',
+    technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Version Control with GitHub ',
     available: true,
     url: '',
     githubUrl: 'https://github.com/MLogan1998/pet-adoption'
@@ -41,7 +41,7 @@ const buildProjects = (obj) => {
 
   for (i = 0; i < projects.length; i++) {
     if(obj[i].available === true) {
-      domString += `<div class="${obj[i].camel}" id="projectCard">`
+      domString += `<div class="${obj[i].camel}">`
       domString += `<h3 class="projectTitle">${obj[i].title}</h3>`
       domString += `<img class="screenshotImg" src="${obj[i].screenshot}" alt="${obj[i].title} Screenshot"><br>`
       domString += '<div id="details">'
