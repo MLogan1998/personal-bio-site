@@ -1,5 +1,4 @@
 body {
-  background-color: #C4C2CC;
   margin: 0 auto;
 }
 
@@ -28,19 +27,18 @@ nav h1 {
    cursor: pointer;
 }
 
-a:hover {
-  opacity: .8;
+#navLinks a:hover {
+  color: #3D80FB;
 }
 
 #bioPage {
-  display: flex;
-  flex-wrap: wrap;
   text-align: center;
   max-width: 12500px;
   justify-content: center;
   margin: 0 auto;
   background-color: #3d80fb;
   margin-bottom: 50px;
+  padding-top: 30px;
 }
 
 
@@ -48,6 +46,39 @@ a:hover {
   font-family: 'Pattaya', sans-serif;
   font-size: 80px;
   color: white;
+  margin: 0px;
+}
+.secondContainer {
+  max-width: 950px;
+  background-color: white;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  background-color: #3d80fb;
+  justify-content: center;
+}
+.textContainer {
+  width: 450px;
+  height: 195px;
+  padding:15px 0px 0px 0px;
+}
+.textContent h3 {
+  color:  white;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  margin: 65px 25px 5px 25px;
+}
+.textContent p {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  margin: 5px 25px 10px 25px;
+  color:  white;
+ }
+ 
+ .textContent {
+  border-right: 1px solid white;
+ }
+
+#tBorder {
+  border-left: 1px solid white;
 }
 #projectsPage {
   display: flex;
@@ -56,6 +87,13 @@ a:hover {
   margin-bottom: 25px;
 }
 
+.projectsH1 {
+  text-align: center;
+  font-family: 'Pattaya', sans-serif;
+  font-size: 60px;
+  color: #3d80fb;
+  margin-bottom: 20px;
+}
 .projectDiv {
   position: relative;
  }
@@ -72,8 +110,9 @@ a:hover {
 }
 .screenshotImg {
   width: 500px;
-  border: 3px solid white;
+  border: 3px solid #3D80FB;
   margin: 5px;
+  border-radius: 5px;
 }
 
 .projectH3 {
@@ -101,4 +140,32 @@ a:hover {
   top: 57%;
   left: 43%;
   max-width: 260px;
+}
+
+.descriptionP a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.descriptionP a:hover {
+  opacity: .8;
+}
+
+#technologiesPage {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  max-width: 12500px;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #3d80fb;
+  margin-bottom: 50px;
+}
+
+
+#technologiesPage > h1 {
+  font-family: 'Pattaya', sans-serif;
+  font-size: 60px;
+  color: white;
 }
