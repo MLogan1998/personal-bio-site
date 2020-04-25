@@ -22,7 +22,7 @@ const projects = [
   {
     title: 'Pet Adoption',
     camel: 'petAdoption',
-    screenshot: 'https://i.postimg.cc/CdpTLtQT/pet-adoption-final.jpg',
+    screenshot: 'https://i.postimg.cc/Kz44b9Xn/pet-adoption-final2.jpg',
     description: 'Create pet cards using JavaScript. This was our first project using JavaScript to print to the dom. Added buttons to filter the cards by animal type.',
     technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Version Control with GitHub ',
     available: true,

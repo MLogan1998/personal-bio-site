@@ -23,11 +23,10 @@ nav h1 {
 #navLinks a{
   margin: 0px 10px;
   color: #557A95;
-  font-weight: bold;
   padding:25px 0px;
   cursor: pointer;
-  font-family: 'Barlow Condensed', sans-serif;
-  font-size: 18px;
+  font-family: 'Prompt', sans-serif;
+  font-size: 15px;
 }
 
 a:hover {
@@ -61,18 +60,21 @@ a:hover {
 .screenshotImg {
   margin-bottom: -9px;
   padding: 0px;
-  border-bottom: 1px solid #7395AE;
+  border-bottom: 2px dotted #7395AE;
 }
 #details {
   text-align: left;
   background-color: white;
-  padding: 10px 25px 5px 5px;
+  padding: 10px 25px 5px 25px;
 }
 
 #details > p {
   font-family: 'M PLUS Rounded 1c', sans-serif;
+  margin-top: 3px;
 }
 
 #details > h3 {
   font-family: 'Barlow Condensed', sans-serif;
+  margin: 9px 0px 0px 0px;
+  color: #7395AE;
 }
