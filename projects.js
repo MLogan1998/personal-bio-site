@@ -4,7 +4,7 @@ const projects = [
     camel: 'projectCards',
     screenshot: 'https://i.postimg.cc/vmzTV7r6/product-cards-final.jpg',
     description: 'Our first project at NSS was to create product cards using HTML and CSS. The biggest challenge of this project was placing the sold out image over the card.',
-    technologiesUsed: 'HTML, CSS, Version Control with GitHub ',
+    technologiesUsed: 'HTML, CSS, GitHub ',
     available: true,
     url: '',
     githubUrl: 'https://github.com/MLogan1998/product-cards'
@@ -14,7 +14,7 @@ const projects = [
     camel: 'cssThemeChallenge',
     screenshot: 'https://i.postimg.cc/LXkjbZFt/css-theme-challenge-final.jpg',
     description: 'This was an opttional challenge to recreate a template from TEMPLATED. At the time, by far the most advanced work I had done. I think it turned out pretty good!',
-    technologiesUsed: 'HTML, CSS, Version Control with GitHub ',
+    technologiesUsed: 'HTML, CSS, GitHub ',
     available: true,
     url: '',
     githubUrl: 'https://github.com/MLogan1998/css-theme-challenge'
@@ -24,7 +24,7 @@ const projects = [
     camel: 'petAdoption',
     screenshot: 'https://i.postimg.cc/Kz44b9Xn/pet-adoption-final2.jpg',
     description: 'Create pet cards using JavaScript. This was our first project using JavaScript to print to the dom. Added buttons to filter the cards by animal type.',
-    technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Version Control with GitHub ',
+    technologiesUsed: 'HTML, CSS, Vanilla JavaScript, GitHub ',
     available: true,
     url: '',
     githubUrl: 'https://github.com/MLogan1998/pet-adoption'
@@ -41,16 +41,10 @@ const buildProjects = (obj) => {
 
   for (i = 0; i < projects.length; i++) {
     if(obj[i].available === true) {
-      domString += `<div class="${obj[i].camel}">`
-      domString += `<h3 class="projectTitle">${obj[i].title}</h3>`
-      domString += `<img class="screenshotImg" src="${obj[i].screenshot}" alt="${obj[i].title} Screenshot"><br>`
-      domString += '<div id="details">'
-      domString += '<h3>Project Description</h3>'
+      domString += '<div class="projectDiv">'
+      domString += `<img class="screenshotImg" src="${obj[i].screenshot}" alt="${obj[i].title} Screenshot">`
+      domString += `<h3 class="projectH3">${obj[i].title}<br />${obj[i].technologiesUsed}</h3>`
       domString += `<p class="descriptionP">${obj[i].description}</p>`
-      domString += '<h3>Made With:</h3>'
-      domString += `<p class="techUsedP">${obj[i].technologiesUsed}</p>`
-      domString += '</div>'
-      domString += `<a href="${obj[i].githubUrl}" target="_new"><img border="0" alt="GitHub" src="https://i.postimg.cc/6pBvGvtv/githubnew.png" width="50" height="50"></a>`
       domString += '</div>'
     }
   }
