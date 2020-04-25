@@ -44,7 +44,7 @@ const buildProjects = (obj) => {
       domString += '<div class="projectDiv">'
       domString += `<img class="screenshotImg" src="${obj[i].screenshot}" alt="${obj[i].title} Screenshot">`
       domString += `<h3 class="projectH3">${obj[i].title}<br />${obj[i].technologiesUsed}</h3>`
-      domString += `<p class="descriptionP">${obj[i].description}</p>`
+      domString += `<p class="descriptionP">${obj[i].description} <a href="${obj[i].githubUrl}" target="_new">>>GitHub Repo</a></p>`
       domString += '</div>'
     }
   }
