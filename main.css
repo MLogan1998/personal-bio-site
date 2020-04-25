@@ -6,48 +6,65 @@ body {
 nav {
   background-color: white;
   display: flex;
-  padding: 20px;
+  padding: 10px 10px 10px 20px;
 }
 nav h1 {
   margin: 0px;
-  color: #5D5C61;
+  color: #3d80fb;
   font-family: 'Poiret One', cursive;
+  font-weight: bolder;
 }
 #navLinks {
   list-style-type: none;
   display:flex;
-  margin: 6px 20px; 
   padding: 0px;
 }
 
 #navLinks a{
-  margin: 0px 10px;
-  color: #557A95;
-  padding:25px 0px;
-  cursor: pointer;
-  font-family: 'Prompt', sans-serif;
-  font-size: 15px;
+   color: #5C5C5C;
+   font-family: 'Prompt', sans-serif;
+   font-size: 15px;
+   margin-left: 20px;
+   cursor: pointer;
 }
 
 a:hover {
   opacity: .8;
 }
 
+#bioPage {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  max-width: 12500px;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #3d80fb;
+}
+
+
+#bioPage > h1 {
+  font-family: 'Pattaya', sans-serif;
+  font-size: 80px;
+  color: white;
+}
 #projectsPage {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  max-width: 1000px;
+  max-width: 12500px;
   justify-content: center;
   margin: 0 auto;
+  background-color: #E8E8E8;
 }
 
 #projectsPage > div {
   border: 1px solid #7395AE;
   margin: 10px;
   background-color: #B1A296; 
-  max-width: 475px;
+  max-width: 375px;
 }
+
 
 .projectTitle {
   font-family: 'Hind Siliguri', sans-serif;
@@ -58,6 +75,7 @@ a:hover {
 }
 
 .screenshotImg {
+  width: 375px;
   margin-bottom: -9px;
   padding: 0px;
   border-bottom: 2px dotted #7395AE;
@@ -66,6 +84,7 @@ a:hover {
   text-align: left;
   background-color: white;
   padding: 10px 25px 5px 25px;
+  min-height: 250px;
 }
 
 #details > p {
