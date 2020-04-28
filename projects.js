@@ -43,8 +43,9 @@ const buildProjects = (obj) => {
     if(obj[i].available === true) {
       domString += '<div class="projectDiv">'
       domString += `<img class="screenshotImg" src="${obj[i].screenshot}" alt="${obj[i].title} Screenshot">`
-      domString += `<h3 class="projectH3">${obj[i].title}<br />${obj[i].technologiesUsed}</h3>`
+      domString += `<h4 class="projectH3">${obj[i].title}</h4>`
       domString += `<p class="descriptionP">${obj[i].description} <a href="${obj[i].githubUrl}" target="_new">>>GitHub Repo</a></p>`
+      domString += `<p class="techP">${obj[i].technologiesUsed}</p>`
       domString += '</div>'
     }
   }
