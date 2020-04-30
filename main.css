@@ -10,6 +10,7 @@ nav {
   padding: 10px 10px 10px 20px;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 nav h1 {
   margin: 0px;
@@ -68,7 +69,9 @@ nav h1 {
   justify-content: center;
   margin-bottom: 30px;
 }
-
+.textContentTypingSmall{
+  display:none;
+}
 .textContentTyping {
   margin: 0 auto;
   width: 450px;
@@ -99,7 +102,7 @@ nav h1 {
  overflow: hidden;
 }
 .textContentTyping p:nth-child(1) {
- width: 430px;
+ width: 450px;
  -webkit-animation: type 5s steps(53, end);
  animation: type 5s steps(53, end);
  -webkit-animation-fill-mode: forwards;
@@ -182,8 +185,7 @@ nav h1 {
   align-items: center; 
   padding: 30px 0px 17px 0px;
   max-width: 1000px;
-  overflow-x: auto;
-  flex-direction: row-reverse;
+  overflow-x: scroll;
 }
 
 ::-webkit-scrollbar {
@@ -213,7 +215,7 @@ nav h1 {
  }
 
 .screenshotImg {
-  width: 400px;
+  width: 450px;
   border: 3px solid #3D80FB;
   margin: 5px;
   border-radius: 5px;
@@ -282,4 +284,71 @@ nav h1 {
   font-family: 'Prompt', sans-serif;
   max-width: 900px;
   border-top: 1px solid white;
+}
+
+@media only screen and (max-width: 600px) {
+  .textContentTypingSmall {
+    width: 300px;
+  }
+  .textContentTyping {
+    display: none;
+  }
+
+  .textContent {
+    width: 300px;
+  }
+  .textContentTypingSmall {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    padding-bottom: 10px;
+    color: white;
+   }
+  
+  .const {
+   color: yellow;
+  }
+  
+  .nameText {
+   color: orange;
+  }
+  
+  .equal {
+   color: #8AEE9B;
+  }
+  
+  .bracket {
+   color: #FAA8D1;
+   font-size: 18px;
+  }
+  .textContentTypingSmall p {
+   font-family: 'Inconsolata', monospace;
+   margin: 0;
+   white-space: nowrap;
+   overflow: hidden;
+   font-size: 11px;
+  }
+  .textContentTypingSmall p:nth-child(1) {
+   width: 300px;
+   -webkit-animation: type 5s steps(53, end);
+   animation: type 5s steps(53, end);
+   -webkit-animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
+  }
+  
+  .textContentTypingSmall p:nth-child(2) {
+   margin-top: 0px;
+   width: 225px;
+   opacity: 0;
+   -webkit-animation: type2 3s steps(40, end);
+   animation: type2 3s steps(40, end);
+   -webkit-animation-delay: 5s;
+   animation-delay: 5s;
+   -webkit-animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
+  }
+
+  .screenshotImg {
+    width:350px;
+  }
 }

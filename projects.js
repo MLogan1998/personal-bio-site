@@ -1,13 +1,13 @@
 const projects = [
   {
-    title: 'Product Cards',
-    camel: 'projectCards',
-    screenshot: 'https://i.postimg.cc/vmzTV7r6/product-cards-final.jpg',
-    description: 'Our first project at NSS was to create product cards using HTML and CSS. The biggest challenge of this project was placing the sold out image over the card.',
-    technologiesUsed: 'HTML, CSS',
+    title: 'Pet Adoption',
+    camel: 'petAdoption',
+    screenshot: 'https://i.postimg.cc/Kz44b9Xn/pet-adoption-final2.jpg',
+    description: 'Create pet cards using JavaScript. This was our first project using JavaScript to print to the dom. Added buttons to filter the cards by animal type.',
+    technologiesUsed: 'HTML, CSS, Vanilla JS',
     available: true,
     url: '',
-    githubUrl: 'https://github.com/MLogan1998/product-cards'
+    githubUrl: 'https://github.com/MLogan1998/pet-adoption'
   },
   {
     title: 'CSS Theme Challenge',
@@ -20,14 +20,14 @@ const projects = [
     githubUrl: 'https://github.com/MLogan1998/css-theme-challenge'
   },
   {
-    title: 'Pet Adoption',
-    camel: 'petAdoption',
-    screenshot: 'https://i.postimg.cc/Kz44b9Xn/pet-adoption-final2.jpg',
-    description: 'Create pet cards using JavaScript. This was our first project using JavaScript to print to the dom. Added buttons to filter the cards by animal type.',
-    technologiesUsed: 'HTML, CSS, Vanilla JS',
+    title: 'Product Cards',
+    camel: 'projectCards',
+    screenshot: 'https://i.postimg.cc/vmzTV7r6/product-cards-final.jpg',
+    description: 'Our first project at NSS was to create product cards using HTML and CSS. The biggest challenge of this project was placing the sold out image over the card.',
+    technologiesUsed: 'HTML, CSS',
     available: true,
     url: '',
-    githubUrl: 'https://github.com/MLogan1998/pet-adoption'
+    githubUrl: 'https://github.com/MLogan1998/product-cards'
   },
 ]
 
