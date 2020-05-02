@@ -3,7 +3,7 @@ const projects = [
     title: 'Sorting Hat',
     camel: 'sortingHat',
     screenshot: 'https://i.postimg.cc/HkQp7Kjz/sorting-hat-final.jpg',
-    description: 'The goal of the project was to created a Sorting Hat that assigned a student to a random house, and a button that removed the studen when expelled.',
+    description: 'The goal of the project was to created a Sorting Hat that assigned a student to a random house, and a button that removed the student when expelled.',
     technologiesUsed: 'HTML, CSS, Vanilla JS',
     available: true,
     url: '',
