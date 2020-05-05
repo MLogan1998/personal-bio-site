@@ -2,8 +2,8 @@ const projects = [
   {
     title: 'Sorting Hat',
     camel: 'sortingHat',
-    screenshot: 'https://i.postimg.cc/HkQp7Kjz/sorting-hat-final.jpg',
-    description: 'The goal of the project was to created a Sorting Hat that assigned a student to a random house, and a button that removed the student when expelled.',
+    screenshot: 'https://i.postimg.cc/15GS3wZr/sorting-hat-finfalfinal.jpg',
+    description: 'Created a Sorting Hat that assigned a student to a random house, and a button that expelled student and moved the student to Voldemorts Army.',
     technologiesUsed: 'HTML, CSS, Vanilla JS',
     available: true,
     url: '',
@@ -12,7 +12,7 @@ const projects = [
   {
     title: 'Pet Adoption',
     camel: 'petAdoption',
-    screenshot: 'https://i.postimg.cc/Kz44b9Xn/pet-adoption-final2.jpg',
+    screenshot: 'https://i.postimg.cc/hjyggrLC/pet-adoption-finalfinal.jpg',
     description: 'Create pet cards using JavaScript. This was our first project using JavaScript to print to the dom. Added buttons to filter the cards by animal type.',
     technologiesUsed: 'HTML, CSS, Vanilla JS',
     available: true,
