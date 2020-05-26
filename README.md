@@ -9,6 +9,8 @@ The objective of this project is to create a personal portfolio using technologi
 ![Main View](screenshots/readme4.jpg)
 ##### Scroll Through Projects:
 ![Projects View](screenshots/readme5.jpg)
+##### Responsive Design:
+![Mobile View](screenshots/readme6.jpg)
 
 
 ## How To Run:
