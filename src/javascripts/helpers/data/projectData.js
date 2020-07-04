@@ -7,7 +7,7 @@ const projects = [
     technologiesUsed: 'HTML, CSS, Vanilla JS',
     available: true,
     url: '',
-    githubUrl: 'https://github.com/MLogan1998/sorting-hat'
+    githubUrl: 'https://github.com/MLogan1998/sorting-hat',
   },
   {
     title: 'Pet Adoption',
@@ -17,7 +17,7 @@ const projects = [
     technologiesUsed: 'HTML, CSS, Vanilla JS',
     available: true,
     url: '',
-    githubUrl: 'https://github.com/MLogan1998/pet-adoption'
+    githubUrl: 'https://github.com/MLogan1998/pet-adoption',
   },
   {
     title: 'CSS Theme Challenge',
@@ -27,7 +27,7 @@ const projects = [
     technologiesUsed: 'HTML, CSS',
     available: true,
     url: '',
-    githubUrl: 'https://github.com/MLogan1998/css-theme-challenge'
+    githubUrl: 'https://github.com/MLogan1998/css-theme-challenge',
   },
   {
     title: 'Product Cards',
@@ -37,33 +37,8 @@ const projects = [
     technologiesUsed: 'HTML, CSS',
     available: true,
     url: '',
-    githubUrl: 'https://github.com/MLogan1998/product-cards'
+    githubUrl: 'https://github.com/MLogan1998/product-cards',
   },
-]
+];
 
-const printsToDom = (selector, textToPrint) => {
-  const selectedDiv = document.querySelector(selector);
-  selectedDiv.innerHTML = textToPrint;
-}
-
-const buildProjects = (obj) => {
-  let domString = '';
-
-  for (i = 0; i < projects.length; i++) {
-    if(obj[i].available === true) {
-      domString += '<div class="projectDiv">'
-      domString += `<img class="screenshotImg" src="${obj[i].screenshot}" alt="${obj[i].title} Screenshot">`
-      domString += `<h4 class="projectH3">${obj[i].title}</h4>`
-      domString += `<p class="descriptionP">${obj[i].description} <a href="${obj[i].githubUrl}" target="_new">>>GitHub Repo</a></p>`
-      domString += `<p class="techP">${obj[i].technologiesUsed}</p>`
-      domString += '</div>'
-    }
-  }
-  printsToDom('#projectsPage', domString)
-}
-
-const init = () => {
-  buildProjects(projects);
-}
-
-init();
+export default { projects };
