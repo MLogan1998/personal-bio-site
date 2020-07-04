@@ -1,0 +1,39 @@
+#technologiesPage {
+  text-align: center;
+  max-width: 12500px;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #3d80fb;
+  margin-bottom: 50px;
+}
+
+#technologiesPage > h1 {
+  font-family: 'Pattaya', sans-serif;
+  font-size: 60px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.fa-sass {
+  color: #c36;
+}
+
+.fa-bootstrap {
+  color: #553d7c;
+}
+
+.fa-js-square {
+  color: #eedb51;
+}
+
+.fa-css3-alt {
+  color: #29a9df;
+}
+
+.fa-html5 {
+  color: #f16524;
+}
+
+.fab {
+  margin-right: 8px;
+}
