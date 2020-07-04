@@ -1,0 +1,38 @@
+{
+  "project1": {
+    "title": "Star Wars Chat",
+    "screenshot": "https://i.imgur.com/PSentJw.jpg",
+    "description": "Group project creating a Star Wars themed chat room. Special thanks to my E12 partners Austin Phy, Nikhil Gaikwad, and Joshua Medlen. Search for a gif!",
+    "technologiesUsed": "Javascript, SCSS, Axios, JQuery",
+    "available": true,
+    "githubUrl": "https://github.com/MLogan1998/chatty-zeta-star-wars",
+    "portfolioUrl": "#"
+  },
+  "project2": {
+    "title": "Tamagotchi",
+    "screenshot": "https://i.imgur.com/bnHcIBw.jpg",
+    "description": "Tamagotchi was our first time using webpack and SCSS. The objective was to create an app inspired by the popular 90s game. Go play. Eat healthy.",
+    "technologiesUsed": "Webpack, SCSS, Javascript",
+    "available": true,
+    "githubUrl": "https://github.com/MLogan1998/tamagotchi",
+    "portfolioUrl": "#"
+  }, 
+  "project3": {
+    "title": "Bear Watcher",
+    "screenshot": "https://i.imgur.com/GSm9IRu.jpg",
+    "description": "Bear Watcher was our introduction to ES6 Modules. The objective was to create a page that took user input and tracked bears. Go catch a fish!",
+    "technologiesUsed": "JavaScript, Bootstrap, ES6 Modules",
+    "available": true,
+    "githubUrl": "https://github.com/MLogan1998/bear-watcher",
+    "portfolioUrl": "#"
+  },
+  "project4": {
+    "title": "Sweaty's",
+    "screenshot": "https://i.imgur.com/YKzti0q.jpg",
+    "description": "Group project creating an e-commerce site for sweatpants. Special thanks to my partners William Campbell, Nate Owens, and Pete Stewart.",
+    "technologiesUsed": "HTML, CSS, JavaScript, Bootstrap",
+    "available": false,
+    "githubUrl": "https://github.com/MLogan1998/pants-sweat-pants",
+    "portfolioUrl": "#"
+  }
+}
