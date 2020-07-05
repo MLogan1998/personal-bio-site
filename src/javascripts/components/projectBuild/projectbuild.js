@@ -16,7 +16,11 @@ const buildProjects = () => {
         <img class="screenshotImg" src="${project.screenshot}" alt="${project.title} Screenshot">
         <h4 class="projectH3">${project.title}</h4>
         <p class="descriptionP">${project.description}</p>
-        <p class="deployP"><a href="${project.portfolioUrl}">>>Launch Project</a><a href="${project.githubUrl}">>>GitHub Repo</a></p>
+        <p class="deployP">`;
+        if (project.isDeployed) {
+          domString += `<a href="${project.portfolioUrl}"s target="_blank">>>Launch Project</a>`;
+        }
+        domString += `<a href="${project.githubUrl}">>>GitHub Repo</a></p>
         <p class="techP">${project.technologiesUsed}</p>
         </div>
         `;
