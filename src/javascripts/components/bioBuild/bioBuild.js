@@ -16,7 +16,7 @@ const buildBio = () => {
   <p>&nbsp;&nbsp;&nbsp;&nbsp;'Tennessee Fan', 'Nashville Strong'</span><span class="bracket">]</span>;</p>
   </div>
   <div class="textContent">
-  <p class="edP">Thank you for vitising. My name is Matt Logan, I was born and raised in Nashville. Recently, I began a new journey into the world of web development. I enrolled at Nashville Software School, and am in Evening Cohort 12. I created this website to showcase my progress. Have a look around and contact me with any questions. I'd love to hear from you.</p>
+  <p class="edP">Thank you for visiting. My name is Matt Logan, I was born and raised in Nashville. Recently, I began a new journey into the world of web development. I enrolled at Nashville Software School, and am in Evening Cohort 12. I created this website to showcase my progress. Have a look around and contact me with any questions. I'd love to hear from you.</p>
   </div>
   </div>
   <a href="mailto:mlogan5212@gmail.com"><i class="far fa-envelope fa-2x"></i></a>
