@@ -1,13 +1,11 @@
-#technologiesPage {
+.techLight {
   text-align: center;
   max-width: 12500px;
   justify-content: center;
   margin: 0 auto;
   background-color: #3d80fb;
   margin-bottom: 50px;
-}
-
-#technologiesPage > h1 {
+  h1 {
   font-family: 'Pattaya', sans-serif;
   font-size: 60px;
   color: white;
@@ -36,4 +34,6 @@
 
 .fab {
   margin-right: 8px;
+}
+
 }
