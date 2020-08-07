@@ -1,20 +1,17 @@
-// @import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
-body {
+.lightBody {
   margin: 0 auto;
   background-color: #3d80fb;
   justify-content: center;
 }
 
-nav {
-  background-color: white;
-  display: flex;
-  padding: 10px 10px 10px 20px;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
+.navbar {
+  background-color: white !important;
+  z-index: 1 !important;
 }
+
 nav h1 {
   margin: 0px;
   color: #3d80fb;
@@ -27,90 +24,96 @@ nav h1 {
   padding: 0px;
 }
 
-#navLinks a{
-   color: #5C5C5C;
+.navLinks a{
+   color: #5C5C5C !important;
    font-family: 'Prompt', sans-serif;
    font-size: 15px;
-   margin-left: 20px;
    cursor: pointer;
-   text-decoration: none;
+   text-decoration: none !important;
 }
 
-#navLinks a:hover {
-  color: #3D80FB;
+.navLinks a:hover {
+  color: #3D80FB !important;
 }
 
-.footer {
-  margin: 0 auto;
+.lightFoot {
+  margin: 0 auto !important;
   color: white;
   font-family: 'Prompt', sans-serif;
   max-width: 900px;
   border-top: 1px solid white;
+  padding-bottom: 10px;
+
+  p {
+    margin-bottom: 0px !important;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-  .textContentTypingSmall {
-    width: 300px;
-  }
-  .textContentTyping {
-    display: none;
-  }
-
-  .textContent {
-    width: 300px;
-  }
-  .textContentTypingSmall {
-    display: block;
-    margin: 0 auto;
-    width: 300px;
-    padding-bottom: 10px;
-    color: white;
-   }
+.responsive {
+    .textContentTypingSmall {
+      width: 300px;
+    }
+    .textContentTyping {
+      display: none;
+    }
   
-  .const {
-   color: yellow;
-  }
+    .textContent {
+      width: 300px;
+    }
+    .textContentTypingSmall {
+      display: block;
+      margin: 0 auto;
+      width: 300px;
+      padding-bottom: 10px;
+      color: white;
+     }
+    
+    .const {
+     color: yellow;
+    }
+    
+    .nameText {
+     color: orange;
+    }
+    
+    .equal {
+     color: #8AEE9B;
+    }
+    
+    .bracket {
+     color: #FAA8D1;
+     font-size: 18px;
+    }
+    .textContentTypingSmall p {
+     font-family: 'Inconsolata', monospace;
+     margin: 0;
+     white-space: nowrap;
+     overflow: hidden;
+     font-size: 11px;
+    }
+    .textContentTypingSmall p:nth-child(1) {
+     width: 300px;
+     -webkit-animation: type 5s steps(53, end);
+     animation: type 5s steps(53, end);
+     -webkit-animation-fill-mode: forwards;
+     animation-fill-mode: forwards;
+    }
+    
+    .textContentTypingSmall p:nth-child(2) {
+     margin-top: 0px;
+     width: 225px;
+     opacity: 0;
+     -webkit-animation: type2 3s steps(40, end);
+     animation: type2 3s steps(40, end);
+     -webkit-animation-delay: 5s;
+     animation-delay: 5s;
+     -webkit-animation-fill-mode: forwards;
+     animation-fill-mode: forwards;
+    }
   
-  .nameText {
-   color: orange;
-  }
-  
-  .equal {
-   color: #8AEE9B;
-  }
-  
-  .bracket {
-   color: #FAA8D1;
-   font-size: 18px;
-  }
-  .textContentTypingSmall p {
-   font-family: 'Inconsolata', monospace;
-   margin: 0;
-   white-space: nowrap;
-   overflow: hidden;
-   font-size: 11px;
-  }
-  .textContentTypingSmall p:nth-child(1) {
-   width: 300px;
-   -webkit-animation: type 5s steps(53, end);
-   animation: type 5s steps(53, end);
-   -webkit-animation-fill-mode: forwards;
-   animation-fill-mode: forwards;
-  }
-  
-  .textContentTypingSmall p:nth-child(2) {
-   margin-top: 0px;
-   width: 225px;
-   opacity: 0;
-   -webkit-animation: type2 3s steps(40, end);
-   animation: type2 3s steps(40, end);
-   -webkit-animation-delay: 5s;
-   animation-delay: 5s;
-   -webkit-animation-fill-mode: forwards;
-   animation-fill-mode: forwards;
-  }
-
-  .screenshotImg {
-    width:350px;
+    .screenshotImg {
+      width:350px;
+    }
   }
 }
