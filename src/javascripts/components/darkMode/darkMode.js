@@ -9,51 +9,15 @@ const changeIcon = () => {
   }
 };
 
-const changeBio = () => {
-  if ($('#bioPage').hasClass('bioPageLight')) {
-    $('#bioPage').removeClass();
-    $('#bioPage').addClass('darkBio');
-    $('#bioPage').addClass('responsive');
+const lightSwitch = (selector, light, dark) => {
+  if ($(selector).hasClass(light)) {
+    $(selector).removeClass();
+    $(selector).addClass(dark);
+    $(selector).addClass('responsive');
   } else {
-    $('#bioPage').removeClass();
-    $('#bioPage').addClass('bioPageLight');
-    $('#bioPage').addClass('responsive');
-  }
-};
-
-const changeProjects = () => {
-  if ($('#projectContainer').hasClass('projectLight')) {
-    $('#projectContainer').removeClass();
-    $('#projectContainer').addClass('projectDark');
-    $('#projectContainer').addClass('responsive');
-  } else {
-    $('#projectContainer').removeClass();
-    $('#projectContainer').addClass('projectLight');
-    $('#projectContainer').addClass('responsive');
-  }
-};
-
-const changeTech = () => {
-  if ($('#technologiesPage').hasClass('techLight')) {
-    $('#technologiesPage').removeClass();
-    $('#technologiesPage').addClass('techDark');
-    $('#technologiesPage').addClass('responsive');
-  } else {
-    $('#technologiesPage').removeClass();
-    $('#technologiesPage').addClass('techLight');
-    $('#technologiesPage').addClass('responsive');
-  }
-};
-
-const changeFooter = () => {
-  if ($('footer').hasClass('lightFoot')) {
-    $('footer').removeClass();
-    $('footer').addClass('darkFoot');
-    $('footer').addClass('responsive');
-  } else {
-    $('footer').removeClass();
-    $('footer').addClass('lightFoot');
-    $('footer').addClass('responsive');
+    $(selector).removeClass();
+    $(selector).addClass(light);
+    $(selector).addClass('responsive');
   }
 };
 
@@ -69,10 +33,10 @@ const changeBody = () => {
 
 const switched = () => {
   changeIcon();
-  changeBio();
-  changeProjects();
-  changeTech();
-  changeFooter();
+  lightSwitch('#bioPage', 'bioPageLight', 'darkBio');
+  lightSwitch('#projectContainer', 'projectLight', 'projectDark');
+  lightSwitch('#technologiesPage', 'techLight', 'techDark');
+  lightSwitch('footer', 'lightFoot', 'darkFoot');
   changeBody();
 };
 
