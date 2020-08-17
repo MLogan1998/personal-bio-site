@@ -1,5 +1,15 @@
 {
   "project1": {
+    "title": "Bozo University",
+    "screenshot": "https://i.imgur.com/dajJQW0.jpg",
+    "description": "Group Project to create admin panel for clown college. Thanks Michael, Nick, and Nate. I was responsible for the landing page and classes page.",
+    "technologiesUsed": "Javascript, Firebase, Axios, JQuery",
+    "available": true,
+    "githubUrl": "https://github.com/MLogan1998/nutshell-chital",
+    "isDeployed": true,
+    "portfolioUrl": "https://nutshell-chital.web.app/"
+  },
+  "project2": {
     "title": "Pinterest",
     "screenshot": "https://i.imgur.com/NiehxDd.jpg",
     "description": "Our first CRUD app using Firebase and Google authentication. Log in with a google account and create boards and pins of your favorite things!",
@@ -9,7 +19,7 @@
     "isDeployed": true,
     "portfolioUrl": "https://pinterest.logandevelopment.io"
   },
-  "project2": {
+  "project3": {
     "title": "Tamagotchi",
     "screenshot": "https://i.imgur.com/bnHcIBw.jpg",
     "description": "Tamagotchi was our first time using webpack and SCSS. The objective was to create an app inspired by the popular 90s game. Go play. Eat healthy.",
@@ -19,7 +29,7 @@
     "isDeployed": true,
     "portfolioUrl": "https://tamagotchi.logandevelopment.io"
   }, 
-  "project3": {
+  "project4": {
     "title": "Bear Watcher",
     "screenshot": "https://i.imgur.com/GSm9IRu.jpg",
     "description": "Bear Watcher was our introduction to ES6 Modules. The objective was to create a page that took user input and tracked bears. Go catch a fish!",
