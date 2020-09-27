@@ -1,5 +1,15 @@
 {
   "project1": {
+    "title": "Not The Office Again",
+    "screenshot": "https://i.imgur.com/OlhvzRA.jpg",
+    "description": "NSS E12 Front End Capstone. Created a React app for those of us addicted to The Office. Discover new content featuring your favorite characters.",
+    "technologiesUsed": "React, TMDb.org API, Firebase, MomentJs",
+    "available": true,
+    "githubUrl": "https://github.com/MLogan1998/not-the-office-fec",
+    "isDeployed": true,
+    "portfolioUrl": "https://ntoa.logandevelopment.io/"
+  },
+  "project2": {
     "title": "Bozo University",
     "screenshot": "https://i.imgur.com/dajJQW0.jpg",
     "description": "Group Project to create admin panel for clown college. Thanks Michael, Nick, and Nate. I was responsible for the landing page and classes page.",
@@ -9,7 +19,7 @@
     "isDeployed": true,
     "portfolioUrl": "https://nutshell-chital.web.app/"
   },
-  "project2": {
+  "project3": {
     "title": "Pinterest",
     "screenshot": "https://i.imgur.com/NiehxDd.jpg",
     "description": "Our first CRUD app using Firebase and Google authentication. Log in with a google account and create boards and pins of your favorite things!",
@@ -19,17 +29,17 @@
     "isDeployed": true,
     "portfolioUrl": "https://pinterest.logandevelopment.io"
   },
-  "project3": {
+  "project4": {
     "title": "Tamagotchi",
     "screenshot": "https://i.imgur.com/bnHcIBw.jpg",
     "description": "Tamagotchi was our first time using webpack and SCSS. The objective was to create an app inspired by the popular 90s game. Go play. Eat healthy.",
     "technologiesUsed": "Webpack, SCSS, Javascript",
-    "available": true,
+    "available": false,
     "githubUrl": "https://github.com/MLogan1998/tamagotchi",
     "isDeployed": true,
     "portfolioUrl": "https://tamagotchi.logandevelopment.io"
   }, 
-  "project4": {
+  "project5": {
     "title": "Bear Watcher",
     "screenshot": "https://i.imgur.com/GSm9IRu.jpg",
     "description": "Bear Watcher was our introduction to ES6 Modules. The objective was to create a page that took user input and tracked bears. Go catch a fish!",
