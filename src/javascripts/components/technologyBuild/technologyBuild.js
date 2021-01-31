@@ -11,6 +11,8 @@ const buildTech = () => {
     <i class="fab fa-js-square fa-3x"></i>
     <i class="fab fa-bootstrap fa-3x"></i>
     <i class="fab fa-sass fa-3x"></i>
+    <i class="fab fa-react fa-3x"></i>
+    <i class="fab fa-python fa-3x"></i>
     </div>
     `;
   utils.printToDom('#technologiesPage', domString);
